@@ -1,6 +1,6 @@
 # Trabalho 3ª Etapa – Inteligência Artificial
 
-**Aluno:** Otávio Henrique Nézio Melo e Marcus Tadeu
+**Aluno:** Otávio Henrique Nézio Melo
 **Disciplina:** Inteligência Artificial – Ciência da Computação
 **Instituição:** Centro Universitário Presidente Antônio Carlos (UNIPAC Barbacena)
 **Professor:** Felipe Roncalli de Paula Carneiro
