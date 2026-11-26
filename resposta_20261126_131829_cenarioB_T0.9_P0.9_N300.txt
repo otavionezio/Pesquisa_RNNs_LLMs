@@ -1,0 +1,51 @@
+=== Registro de Inferência - Ollama ===
+Data/hora:          26/11/2026 13:18:29
+Modelo:             qwen2.5-coder:7b
+Temperature:        0.9
+Top-P:              0.9
+Num_predict:        300
+Tokens do prompt:   47
+Tokens gerados:     300
+Duração total:      80.72 s
+Motivo da parada:   length
+Prompt:             Escreva um algoritmo de ordenação Bubble Sort em C bem documentado.
+=======================================
+
+Aqui está um algoritmo de ordenação Bubble Sort em C, bem documentado:
+
+```c
+#include <stdio.h>
+
+/**
+ * @brief Implementa o algoritmo de ordenação Bubble Sort.
+ * 
+ * O Bubble Sort é um algoritmo de ordenação simples que funciona comparando
+ * pares de elementos adjacentes e trocando-os se estiverem na ordem errada.
+ * O processo é repetido várias vezes até que a lista esteja ordenada.
+ * 
+ * @param arr O array a ser ordenado.
+ * @param n O tamanho do array.
+ */
+void bubbleSort(int arr[], int n) {
+    int i, j, temp;
+    for (i = 0; i < n-1; i++) {
+        // Últimos i elementos já estão em ordem
+        for (j = 0; j < n-i-1; j++) {
+            // Se o elemento encontrado é maior que o próximo
+            if (arr[j] > arr[j+1]) {
+                // Troca os elementos
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
+}
+
+/**
+ * @brief Função auxiliar para imprimir um array.
+ * 
+ * @param arr O array a ser impresso.
+ * @param size O tamanho do array.
+ */
+void printArray(int arr[], int size
